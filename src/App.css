@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+
+}
+
+
+
+
+.meme span {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  margin-top: 4em;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 2px 0 0 rgb(0, 0, 0),
+    -2px 0 0 rgb(0, 0, 0),
+    0 2px 0 rgb(0, 0, 0),
+    0 -2px 0 rgb(0, 0, 0),
+    1px 1px rgb(0, 0, 0),
+    -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0);
+
+
+}
+
+.meme span:nth-child(1) {
+  margin-top: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.meme img {
+  width: 100%;
+}
+
+body,
+.meme {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(45deg, rgba(131, 58, 180, 1) 42%, rgba(90, 69, 252, 1) 100%);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+select {
+  height: 2em;
+  width: 80%;
+  margin-bottom: 1em;
+  color: white;
+  font-weight: bold;
+
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 1px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+
+}
+
+option {
+  background-color: #5B44FA;
+  color: white;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+
+}
+
+input {
+  height: 2em;
+  width: 79%;
+  margin-bottom: 1em;
+  color: white;
+
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 1px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+
+}
+
+button {
+  height: 4em;
+  width: 80%;
+  margin-bottom: 1em;
+  color: white;
+
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 1px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+
+
+}
+
+button:hover {
+  opacity: 0.9;
+  font-weight: bold;
+  background-color: #5B44F7;
+}
+
+h4 {
+  color: white;
+  margin-bottom: 2em;
+}
+
+img {
+  border: 1px solid red;
+}
